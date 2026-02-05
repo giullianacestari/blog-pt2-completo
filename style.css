@@ -119,7 +119,7 @@ button {
 }
 
 /* Desktop */
-@media (min-width: 801px) {
+@media (min-width: 1001px) {
     article {
         flex-direction: row;
         align-items: start;
