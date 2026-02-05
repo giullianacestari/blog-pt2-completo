@@ -1,0 +1,44 @@
+:root {
+    --cor-primaria: #771ba2;
+    --cor-secundaria: #af60e8;
+    --cor-fundo: #ffffff;
+    --cor-texto: #2d1e34;
+    --cor-contraste: #f3eef7;
+
+    --fonte-principal: 'Segoe UI', sans-serif;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    color: var(--cor-texto);
+}
+
+header {
+    background-color: var(--cor-primaria);
+    color: var(--cor-contraste);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+main {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+article {
+    display: flex;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}
+
+.artigo-autor {
+    font-weight: bold;
+}
