@@ -1,4 +1,4 @@
-const botoes = document.querySelectorAll("button");
+const botoes = document.querySelectorAll(".btn-like");
 
 botoes.forEach(function (botao) {
   let curtiu = false;
@@ -15,3 +15,17 @@ botoes.forEach(function (botao) {
     }
   }
 });
+
+// Modo escuro
+const btnTemaEscuro = document.querySelector(".btn-tema-escuro");
+
+btnTemaEscuro.addEventListener("click", mudaTema);
+
+function mudaTema() {
+    const corpoPagina = document.body;
+    if (corpoPagina.classList.contains("tema-escuro")) {
+        corpoPagina.classList.remove("tema-escuro");
+    } else {
+        corpoPagina.classList.add("tema-escuro");
+    }
+}
