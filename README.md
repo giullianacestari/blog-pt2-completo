@@ -6,3 +6,6 @@ Aula 2:
 
 Aula 3:
 <img width="1161" height="894" alt="image" src="https://github.com/user-attachments/assets/62c0ab0f-0236-442a-a8e3-0b03e2246c99" />
+
+Aula 4: 
+<img width="1851" height="904" alt="image" src="https://github.com/user-attachments/assets/a4eef3dc-6eb0-45d0-a869-b0a8e4afd46c" />
