@@ -17,7 +17,8 @@
     --cor-primaria: #853939;
     --cor-secundaria: #1f1111;
     --cor-fundo: #241212;
-    --cor-texto: #ecc4c4;
+    --cor-texto: #c3a3a3;
+    --cor-contraste: #f7eeee;
     --cor-botao: #681212;
 }
 
@@ -28,7 +29,11 @@
 }
 
 .tema-escuro article {
-    box-shadow: 0 2px 9px rgba(255, 226, 226, 0.364);
+    background-color: #f7eeee0c;
+}
+
+.tema-escuro h2 {
+    color: var(--cor-contraste);
 }
 
 body {
@@ -36,7 +41,8 @@ body {
     color: var(--cor-texto);
 }
 
-header {
+header,
+footer {
     background-color: var(--cor-primaria);
     color: var(--cor-contraste);
     text-align: center;
@@ -105,7 +111,6 @@ button {
     background-color: var(--cor-primaria);
     color: var(--cor-contraste);
 }
-
 
 /* Tablet */
 @media (min-width: 601px) and (max-width: 1000px) {
