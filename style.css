@@ -15,7 +15,7 @@
 
 .tema-escuro {
     --cor-primaria: #A6CEFE;
-    --cor-secundaria: #3076c2;
+    --cor-secundaria: #B5D1EF;
     --cor-fundo: #0f172a;
     --cor-texto: #c4ccd4;
     --cor-contraste: #1e293b;
@@ -116,3 +116,4 @@ button {
     color: var(--cor-contraste);
 
 }
+
