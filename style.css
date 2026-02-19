@@ -14,7 +14,7 @@
 }
 
 .tema-escuro {
-    --cor-primaria: #619ee7;
+    --cor-primaria: #A6CEFE;
     --cor-secundaria: #3076c2;
     --cor-fundo: #0f172a;
     --cor-texto: #c4ccd4;
@@ -114,4 +114,5 @@ button {
     border-radius: 50%;
     background-color: var(--cor-primaria);
     color: var(--cor-contraste);
+
 }
