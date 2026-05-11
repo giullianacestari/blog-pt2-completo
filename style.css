@@ -35,12 +35,6 @@
     color: var(--cor-secundaria);
 }
 
-.tema-escuro button {
-    border: none;
-    background-color: var(--cor-botao);
-    color: var(--cor-texto);
-}
-
 .tema-escuro article {
     background-color: #f7eeee0c;
 }
@@ -52,11 +46,6 @@
 .tema-escuro .artigo-autor {
     color: var(--cor-secundaria);
 }
-
-.tema-escuro .btn-tema-escuro {
-    background-color: var(--cor-secundaria);
-}
-
 
 body {
     max-width: 100vw;
